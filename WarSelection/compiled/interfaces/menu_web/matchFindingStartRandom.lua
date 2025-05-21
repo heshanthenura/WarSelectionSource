@@ -1,0 +1,2 @@
+randomTeam = true
+startMatchFinding()

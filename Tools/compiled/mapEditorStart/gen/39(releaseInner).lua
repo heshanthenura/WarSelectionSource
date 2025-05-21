@@ -1,0 +1,1 @@
+root.interface_mapEditorStartSettings_active = not root.interface_mapEditorStartSettings_active

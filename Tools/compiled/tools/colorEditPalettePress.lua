@@ -1,0 +1,1 @@
+palettePressed = getParameter("pressed")

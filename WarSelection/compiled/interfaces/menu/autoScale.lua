@@ -1,0 +1,2 @@
+setInterfaceScale(calcInterfaceScaleAuto())
+setScaleWidget()

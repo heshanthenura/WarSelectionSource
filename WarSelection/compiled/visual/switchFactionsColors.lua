@@ -1,0 +1,2 @@
+factionsColorsByTeams = not factionsColorsByTeams
+setFactionsColors(factionsColorsByTeams)

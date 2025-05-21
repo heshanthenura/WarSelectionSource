@@ -1,0 +1,11 @@
+local nodes = interface.nodes
+local parent = nodes[getParameter("widget")]
+local widget = nodes[162]
+widget.visible = toBool(getParameter("enter"))
+widget.localLeft = parent.screenLeft + getParameter("x") - widget.sizeX - 15
+widget.localTop = parent.screenTop + getParameter("y") - widget.sizeY - 15
+nodes[180].visible = false
+nodes[193].visible = true
+nodes[44].widget_text = damageUpgradeName
+nodes[163].widget_text = staticData.upgradeDamagePrice // 1000
+nodes[195].widget_text = "+" .. staticData.upgradeDamagePercent .. "%"

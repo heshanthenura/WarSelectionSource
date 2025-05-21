@@ -1,0 +1,1 @@
+switchMatchResultsTab(getParameter("tab"))

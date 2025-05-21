@@ -1,0 +1,1 @@
+runSpecialFunction(getParameter("name"))

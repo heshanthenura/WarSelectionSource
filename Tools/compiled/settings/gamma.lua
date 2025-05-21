@@ -1,0 +1,1 @@
+setGamma(getParameter("value"))

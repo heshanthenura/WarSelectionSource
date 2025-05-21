@@ -1,0 +1,1 @@
+parentInterface = getParameter("parent")

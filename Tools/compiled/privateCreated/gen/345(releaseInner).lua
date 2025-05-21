@@ -1,0 +1,1 @@
+kickPrivatePlayer(tonumber(getParameter("pos")))

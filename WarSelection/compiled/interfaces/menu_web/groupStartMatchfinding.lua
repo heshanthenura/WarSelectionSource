@@ -1,0 +1,2 @@
+randomTeam = nil
+startMatchFinding()

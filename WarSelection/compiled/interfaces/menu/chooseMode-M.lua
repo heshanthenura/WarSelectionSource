@@ -1,0 +1,1 @@
+setAndStartMatch(getParameter("mode"))

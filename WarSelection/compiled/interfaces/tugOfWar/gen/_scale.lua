@@ -1,0 +1,2 @@
+interfaceScale = getParameter("widgets")
+onResize()

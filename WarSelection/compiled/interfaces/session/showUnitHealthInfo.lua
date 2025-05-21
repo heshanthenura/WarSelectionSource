@@ -1,0 +1,1 @@
+showFullHealth = toBool(getParameter("enter"))

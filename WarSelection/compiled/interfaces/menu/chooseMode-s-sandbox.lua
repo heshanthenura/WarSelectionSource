@@ -1,0 +1,3 @@
+newMatchMode = "sandbox"
+applyGameMode()
+startMatch()

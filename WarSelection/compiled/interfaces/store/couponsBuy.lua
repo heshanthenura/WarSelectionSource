@@ -1,0 +1,1 @@
+couponBuy(couponProduct)

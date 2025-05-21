@@ -1,0 +1,1 @@
+onEditFunc(getParameter("value"))

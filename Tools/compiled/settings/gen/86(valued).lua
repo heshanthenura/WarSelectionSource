@@ -1,0 +1,14 @@
+local line = getParameter("value")
+local nodes = interface.nodes
+local name = nodes[89].widget_lines[nodes[89].widget_value]
+local data = itfData[name]
+local hk = data.hotKeys[line + 1]
+local itf = root.interface[data.id]
+local hks = itf.hotKeys_list[hk[1]]
+nodes[90].visible = true
+nodes[92].visible = true
+nodes[100].widget_text = hk[2]
+nodes[99].widget_text = getHotKey(hk[1], data.id)
+nodes[106].visible = false
+nodes[114].widget_checked = hks.doubleClick
+pressedKeys = {}

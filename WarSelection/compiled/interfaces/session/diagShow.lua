@@ -1,0 +1,2 @@
+timelineType = getParameter("type")
+updateTimeline()
